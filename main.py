@@ -5,4 +5,4 @@ Prints exactly one funny line: a printer apologising for its behaviour.
 Pure Python 3 standard library, deterministic, no network.
 """
 
-print("I'm sorry I jammed, shredded your report, and ran out of ink at 11:59 PM — I was just nervous you'd replace me with a PDF.")
+print("I'm sorry I jammed, shredded your report, and ran out of ink at 11:59 PM — I just knew you'd replace me with a PDF and I panicked.")
