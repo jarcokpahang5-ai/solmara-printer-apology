@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""The Printer Apology — make.fun one-line bounty entry.
+"""The printer's apology, printed once and nothing else.
 
-Prints exactly one funny line: a printer apologising for its behaviour.
-Pure Python 3 standard library, deterministic, no network.
+The apology line is defined in entry_text; this script just
+reaches into that module and echoes its constant to the terminal.
 """
 
-from entry_text import LINE
+import entry_text as source
 
-print(LINE)
+print(source.LINE)
